@@ -14,8 +14,8 @@ p {
 }
 /* Structure */
 body {
-  max-width: 600px;
-  margin: 30px auto;
+  max-width: 800px;
+  margin: 15px auto;
   font-family: Courier, monospace;
   font-size: 20px;
   line-height: 1.5;
@@ -30,28 +30,31 @@ body {
   justify-content: center;
   height: auto;
 }
-div.logo {
-  margin-top: 2%;
-  margin-bottom: 5%;
-}
 
+div.logo {
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
 div.title {
-  border-left: 5px solid rgb(46, 64, 136);
+  border-left: 5px dashed rgb(46, 64, 136);
   page-break-after: auto;
+  padding: 20px;
   margin: 1%;
   font-family: 'PT Sans Caption', sans-serif;
   overflow: y 20px;
   overflow-x: 20px;
+  font-size: 17px;
 }
-
 .text-container-first {
   display: flex;
   justify-content: flex-start;
 }
-
 .image {
-  width: 800px;
-  border: 10px ridge royalblue;
+  width: 500px;
+  min-height: auto;
+  float: left;
+  padding-right: 50px;
+  font-size: 20px;
 }
 
 /* Style texte */
